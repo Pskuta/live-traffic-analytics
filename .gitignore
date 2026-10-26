@@ -1,0 +1,39 @@
+# Wygenerowane dane i cache Spark
+/warehouse/
+/spark-ivy/
+/spark-warehouse/
+.ivy/
+.ivy2/
+
+# Checkpointy streamingu
+**/chk/
+**/checkpoint/
+**/checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Lokalne dane dostępowe
+.env
+.env.*
+!.env.example
+
+# Logi
+*.log
+
+# Power BI — pliki tymczasowe, nie sam raport
+**/.pbi/
+*.pbix.lock
+*.pbix.tmp
+~$*.pbix
+~$*.pbit
+
+# Pliki systemowe i ustawienia edytorów
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
